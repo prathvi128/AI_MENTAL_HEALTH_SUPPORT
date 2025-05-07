@@ -1,0 +1,64 @@
+# ---------------------------------------------------
+# ✅ FRONTEND (Next.js + Tailwind in app/)
+# ---------------------------------------------------
+
+# Next.js build output
+app/.next/
+.next/
+
+# Static builds
+app/out/
+out/
+
+# Frontend dependencies
+app/node_modules/
+
+# Env variables for frontend
+app/.env
+app/.env.local
+app/.env.development
+app/.env.production
+
+# Tailwind CSS cache
+app/.tailwind-cache/
+
+# ---------------------------------------------------
+# ✅ BACKEND (Node.js + Express)
+# ---------------------------------------------------
+
+# Backend dependencies
+backend/node_modules/
+
+# Backend environment variables
+backend/.env
+
+# Logs
+backend/logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------
+# ✅ ROOT-LEVEL (pnpm, VS Code, system files)
+# ---------------------------------------------------
+
+# Root node_modules (if any)
+node_modules/
+
+# Lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# TypeScript build output (if generated)
+*.tsbuildinfo
+
+# Optional: coverage or testing output
+coverage/
